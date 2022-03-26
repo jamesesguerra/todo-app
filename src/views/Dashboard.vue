@@ -1,8 +1,8 @@
 <template>
   <div class="dashboard">
-    <v-container mt-10>
+    <v-container>
       <h1 class="headline grey--text mb-5">Dashboard</h1>
-      <v-row class="mb-3 pl-3">
+      <v-row class="mb-3 pl-3 mt-8">
         <v-tooltip top>
           <template v-slot:activator="{on, attrs}">
             <v-btn small text @click="sortBy('title')" v-bind="attrs" v-on="on" class="pa-1 mr-1">

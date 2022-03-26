@@ -1,6 +1,6 @@
 <template>
   <div class="team">
-    <v-container mt-10>
+    <v-container>
       <h1 class="headline grey--text mb-3 ml-2">Team</h1>
       <v-row>
         <v-col cols="12" sm="6" md="4" lg="3" v-for="teammate in team" :key="teammate.name">
