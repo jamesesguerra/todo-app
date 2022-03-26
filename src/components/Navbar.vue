@@ -5,7 +5,7 @@
             <v-btn text small right @click="snackbar = false">CLOSE</v-btn>
         </v-snackbar>
 
-        <v-app-bar app scroll-off-screen flat color="error">
+        <v-app-bar app hide-on-scroll flat color="error">
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
             <v-toolbar-title class="text-uppercase">
                 <span class="font-weight-light">TEUX</span>
