@@ -1,14 +1,13 @@
 <template>
     <nav>
-
         <v-snackbar v-model="snackbar" :timeout="4000" top color="success">
             <span>Awesome! You added a new project.</span>
             <v-btn text small right @click="snackbar = false">CLOSE</v-btn>
         </v-snackbar>
 
-        <v-app-bar app hide-on-scroll flat color="error">
+        <v-app-bar app scroll-off-screen flat color="error">
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-            <v-toolbar-title class="text-uppercase grey--text">
+            <v-toolbar-title class="text-uppercase">
                 <span class="font-weight-light">TEUX</span>
                 <span>DEUX</span>
             </v-toolbar-title>
@@ -19,7 +18,6 @@
             </v-btn> -->
         </v-app-bar>
         <v-navigation-drawer app class="accent" v-model="drawer" dark>
-            
             <v-col class=" mt-5 d-flex flex-column">
                 <v-avatar size="100" class="mx-auto justify-center">
                     <img src="/avatar-1.png" alt="">
