@@ -1,7 +1,7 @@
 <template>
     <div class="projects">
-        <h1 class="headline grey--text">Projects</h1>
         <v-container>
+            <h1 class="headline grey--text">Projects</h1>
             <v-expansion-panels class="mt-10">
                 <v-expansion-panel v-for="project in myProjects" :key="project.title">
                     <v-expansion-panel-header>{{ project.title }}</v-expansion-panel-header>

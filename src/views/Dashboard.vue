@@ -1,11 +1,11 @@
 <template>
   <div class="dashboard">
-    <h1 class="headline grey--text">Dashboard</h1>
     <v-container mt-10>
+      <h1 class="headline grey--text mb-5">Dashboard</h1>
       <v-row class="mb-3 pl-3">
         <v-tooltip top>
           <template v-slot:activator="{on, attrs}">
-            <v-btn small text @click="sortBy('title')" v-bind="attrs" v-on="on">
+            <v-btn small text @click="sortBy('title')" v-bind="attrs" v-on="on" class="pa-1 mr-1">
               <v-icon left small>mdi-folder</v-icon>
               <span class="caption text-lowercase">by project name</span>
             </v-btn>
@@ -14,7 +14,7 @@
         </v-tooltip>
         <v-tooltip top>
           <template v-slot:activator="{on, attrs}">
-            <v-btn small text @click="sortBy('person')" v-bind="attrs" v-on="on">
+            <v-btn small text @click="sortBy('person')" v-bind="attrs" v-on="on" class="pa-1">
               <v-icon left small>mdi-account</v-icon>
               <span class="caption text-lowercase">by person</span>
             </v-btn>

@@ -1,7 +1,7 @@
 <template>
   <div class="team">
-    <h1 class="headline grey--text">Team</h1>
     <v-container mt-10>
+      <h1 class="headline grey--text mb-3 ml-2">Team</h1>
       <v-row>
         <v-col cols="12" sm="6" md="4" lg="3" v-for="teammate in team" :key="teammate.name">
           <v-card class="text-center ma-3">
