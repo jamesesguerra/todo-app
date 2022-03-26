@@ -1,4 +1,4 @@
-# playlist-app
+# todo-app
 
 ## Project setup
 ```
